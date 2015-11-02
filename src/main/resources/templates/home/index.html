@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html layout:decorator="layout">
+    <div layout:fragment="content">
+    <p th:text="'Hello, ' + ${name} + '!'" />  
+    
+    
+     <table>
+    <thead>
+      <tr>
+        <th >Array</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr th:each="d : ${data}">
+        <td th:text="${d}"></td>
+      </tr>
+    </tbody>
+  </table>
+    </div>
+  
+</html>

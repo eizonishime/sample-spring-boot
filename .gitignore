@@ -1,0 +1,11 @@
+/build/
+/bin/
+
+.DS_Store
+freemarkerDoc/.DS_Store
+*.orig
+
+# IntelliJ IDEA
+.idea
+*.iml
+
