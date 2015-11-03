@@ -9,3 +9,6 @@ freemarkerDoc/.DS_Store
 .idea
 *.iml
 
+/.gradle/**
+
+/.settings/**
