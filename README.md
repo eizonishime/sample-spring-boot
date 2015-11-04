@@ -6,6 +6,8 @@ To use this project , you need to install the following programs:
   - [Gradle]
   - [Lombok]
   - [Npm]
+  - [Ruby]
+  - [SASS]
 
 Also, this project uses the following technologies 
   - [Spring Boot]
@@ -39,6 +41,8 @@ MIT
    [Spring Boot]: <http://projects.spring.io/spring-boot/>
    [Thymeleaf]: <http://www.thymeleaf.org/>
    [Gradle Daemon]: <https://docs.gradle.org/current/userguide/gradle_daemon.html>
+   [Ruby]: <https://www.ruby-lang.org/>
+   [Sass]: <http://sass-lang.com/install>
  
 
 

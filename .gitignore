@@ -12,5 +12,8 @@ freemarkerDoc/.DS_Store
 /.gradle/**
 
 /.settings/**
+/.sass-cache/**
+
+/node_modules/**
 
 /**/public/components/**

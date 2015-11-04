@@ -1,15 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <!--/*  Each token will be replaced by their respective titles in the resulting page. */-->
+    <meta charset="utf-8" />
     <title layout:title-pattern="$DECORATOR_TITLE - $CONTENT_TITLE"></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="app/styles/css/main.css" />
   </head>
-  <body>
-    <div th:replace="fragments/header::header"></div>
+  <body ng-app="pocAngularYoApp">
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  <div th:replace="fragments/header::header"></div>
+
     <div class="container">
-      <div layout:fragment="content">
-	  </div>
+	    <div layout:fragment="content">
+	    </div>
     </div>
-     <div th:replace="fragments/footer::footer"></div>
-  </body>
+
+   <div th:replace="fragments/footer::footer"></div>
+   <script src="app/scripts/home.js"></script>
+   <script src="http://localhost:35729/livereload.js"></script>
+</body>
 </html>
